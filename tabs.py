@@ -17,3 +17,6 @@ sunny morning""")
 
 print("Pi is approximately %12f " % (22 / 7))
 print("Pi is approximately {:5} ".format(22 / 7))
+
+for i in range(1, 6):
+    print("Number {:<2} squared is {:<2} and cubed is {:<2}".format(i, i ** 2, i ** 3))
