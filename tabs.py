@@ -8,3 +8,9 @@ for i in range(1, 15):
     print(i ** 2)
 print("Calculation complete")
 
+print("The pet shop owner said \"No, no, 'e's resting\"")
+
+print("""Hello, Thomas
+
+look what you did in this
+sunny morning""")
