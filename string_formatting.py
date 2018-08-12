@@ -6,6 +6,8 @@ print("There are\nseveral\nsplits in\nthis string")
 print("")
 print("There are also\t several \t in this string")
 print("")
+
+print(14 % 3)
 # Using method str to convert variable into string
 age = 27
 print('I\'am ' + str(age+10) + ' old')
