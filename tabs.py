@@ -1,10 +1,10 @@
-for i in range(1, 12):
-    print("No {} squared  is {} and cubed is {:4}".format(i, i ** 2, i ** 4))
+for i in range(1, 5):
+    print("No {} squared  is {} and cubed is {:5}".format(i, i ** 2, i ** 4))
 
-for i in range(1, 15):
+for i in range(1, 7):
     print(2 ** i)
 
-for i in range(1, 15):
+for i in range(1, 7):
     print(i ** 2)
 print("Calculation complete")
 
@@ -14,3 +14,6 @@ print("""Hello, Thomas
 
 look what you did in this
 sunny morning""")
+
+print("Pi is approximately %12f " % (22 / 7))
+print("Pi is approximately {:5} ".format(22 / 7))
