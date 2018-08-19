@@ -18,3 +18,12 @@ for i in range(1, 11):
     for j in range(1,11):
         print("{1} times {0} is {2} ".format(i, j, i*j))
     print("============")
+
+
+quote = """
+Alright, but apart from the Sanitation, the Medicine, Education, Wine,
+ Public Order, Irrigation, Roads, the Fresh-Water System,
+ and Public Health, what have Romans ever done for us?"""
+for char in quote:
+    if char in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ':
+        print(char, end='')
