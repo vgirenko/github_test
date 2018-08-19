@@ -27,3 +27,10 @@ Alright, but apart from the Sanitation, the Medicine, Education, Wine,
 for char in quote:
     if char in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ':
         print(char, end='')
+
+for i in range (0, 100, 7):
+    print(i)
+
+for i in range(100)[::7]:
+    print(i,end='')
+
